@@ -14,15 +14,3 @@ html5lib -https://html5lib.readthedocs.io/en/latest/
 
 
 
-
-
-for iterating_var in sequence:
-   for iterating_var in sequence:
-      statements(s)
-   statements(s)
-
-
-while expression:
-   while expression:
-      statement(s)
-   statement(s)
