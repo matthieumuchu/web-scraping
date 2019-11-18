@@ -15,8 +15,8 @@ soup= BeautifulSoup(source_code, 'lxml')
 #soup= BeautifulSoup(source_code, 'html5lib')
 
 urls=[]
-for td_tag in soup.find_all("td"):
-    a_tag = td_tag.find('a')
+for tr_tag in soup.find_all("tr"):
+    a_tag = tr_tag.find('a')
     urls.append(a_tag.attrs['href'])
 
 
